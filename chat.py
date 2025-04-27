@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Asha"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -43,9 +43,23 @@ def get_response(msg):
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                return random.choice(intent['responses'])
+                # Special handling for job listings which are stored as a list of objects
+                if tag == "jobs":
+                    # Format the first 5 job listings for display
+                    job_listings = intent['responses'][0][:5]  # Get first 5 jobs
+                    job_response = "Here are some job opportunities:\n\n"
+                    
+                    for job in job_listings:
+                        job_response += f"🔹 {job['job_title']} at {job['company']}\n"
+                        job_response += f"   Location: {job['location']} | Work Type: {job['work_type']}\n"
+                        job_response += f"   Experience: {job['experience']} | Skills: {', '.join(job['skills'])}\n\n"
+                    
+                    job_response += "Type 'more jobs' to see additional listings."
+                    return job_response
+                else:
+                    return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return "I don't understand. Could you please rephrase your question?"
 
 
 if __name__ == "__main__":

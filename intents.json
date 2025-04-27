@@ -79,6 +79,65 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
+    },
+    {
+      "tag": "jobs",
+      "patterns": [
+        "Show me available jobs",
+        "What jobs are available?",
+        "Are there any job openings?",
+        "I'm looking for a job",
+        "Job listings",
+        "Career opportunities"
+      ],
+      "responses": [
+        [
+          { "job_title": "Senior Security Specialist", "company": "Ericsson", "location": "Gurgaon", "work_type": "hybrid", "experience": "7-12 Yr", "skills": ["cloud security", "incident response"], "status": "Newly Added" },
+          { "job_title": "IAM Engineer", "company": "Ericsson", "location": "Noida", "work_type": "hybrid", "experience": "8-12 Yr", "skills": ["forgerock", "cloud iam"], "status": "Newly Added" },
+          { "job_title": "ICT Engineer - IP Connectivity", "company": "Ericsson", "location": "Noida", "work_type": "hybrid", "experience": "5-8 Yr", "skills": ["ip-routing", "switching system"], "status": "Newly Added" },
+          { "job_title": "Emotional support coach", "company": "FRND App", "location": "Any", "work_type": "work from home", "experience": "0-10 Yr", "skills": ["communication", "listening"], "status": "Newly Added" },
+          { "job_title": "Manager, SOX Compliance & Risk Management", "company": "GoDaddy", "location": "India", "work_type": "work from home", "experience": "4-8 Yr", "skills": ["sox compliance", "internal audit"], "status": "Newly Added" },
+          { "job_title": "Malayalam Listner", "company": "FRND App", "location": "Any", "work_type": "work from home", "experience": "0-10 Yr", "skills": ["communication", "empathy"], "status": "Newly Added" },
+          { "job_title": "Hindi Speaking Coach", "company": "FRND App", "location": "Any", "work_type": "work from home", "experience": "0-10 Yr", "skills": ["communication", "empathy"], "status": "Newly Added" },
+          { "job_title": "Community Executive", "company": "HerKey", "location": "Bangalore", "work_type": "hybrid", "experience": "1-3 Yr", "skills": ["community mgmt.", "online community mgmt"], "status": "Newly Added" },
+          { "job_title": "Freelance Moderator", "company": "HerKey", "location": "Bangalore", "work_type": "work from home", "experience": "0-2 Yr", "skills": ["community management", "communication"], "status": "Newly Added" },
+          { "job_title": "Senior Manager, Data Strategy & Governance", "company": "Amgen India", "location": "Hyderabad", "work_type": "work from office", "experience": "8-14 Yr", "skills": ["leadership", "data management"], "status": "Newly Added" },
+          { "job_title": "IT Auditor", "company": "Finastra", "location": "Bangalore", "work_type": "work from office", "experience": "2-5 Yr", "skills": ["internal audit", "enterprise risk management"], "status": "Newly Added" },
+          { "job_title": "Transition Management Manager", "company": "Amgen India", "location": "Hyderabad", "work_type": "work from office", "experience": "8-12 Yr", "skills": ["project management", "analytical skill"], "status": "Newly Added" },
+          { "job_title": "Manager - International Regulatory Lead", "company": "Amgen India", "location": "Hyderabad", "work_type": "work from office", "experience": "10-12 Yr", "skills": ["international regulatory compliance", "regulatory law"], "status": "Newly Added" },
+          { "job_title": "Data Analyst – Power BI, Python and Alteryx", "company": "Optum", "location": "Hyderabad", "work_type": "work from office", "experience": "4-6 Yr", "skills": ["power bi dashboard", "data warehousing system"], "status": "Newly Added" },
+          { "job_title": "Senior Customer Service Representative", "company": "Optum", "location": "Hyderabad", "work_type": "work from office", "experience": "2-5 Yr", "skills": ["customer service", "typing"], "status": "Newly Added" },
+          { "job_title": "Supervisor Customer Service", "company": "Optum", "location": "Gurgaon", "work_type": "work from office", "experience": "3-6 Yr", "skills": ["customer service", "chat-support"], "status": "Newly Added" },
+          { "job_title": "Trainer", "company": "Optum", "location": "Gurgaon", "work_type": "work from office", "experience": "2-4 Yr", "skills": ["training team", "time management"], "status": "Newly Added" },
+          { "job_title": "Senior Customer Service Representative", "company": "Optum", "location": "Gurgaon", "work_type": "work from office", "experience": "0-2 Yr", "skills": ["customer service", "business operations"], "status": "Newly Added" },
+          { "job_title": "Customer Service Representative", "company": "Optum", "location": "Gurgaon", "work_type": "work from office", "experience": "0-1 Yr", "skills": ["typing", "business communications"], "status": "Newly Added" },
+          { "job_title": "Junior Medical Coder", "company": "Optum", "location": "Chennai", "work_type": "work from office", "experience": "0-1 Yr", "skills": ["medical terminology", "medical coding"], "status": "Newly Added" },
+          { "job_title": "Senior Customer Service Representative", "company": "Optum", "location": "Hyderabad", "work_type": "work from office", "experience": "1-2 Yr", "skills": ["customer service"], "status": "Newly Added" },
+          { "job_title": "Junior Medical Coder", "company": "Optum", "location": "Mumbai", "work_type": "work from office", "experience": "0-2 Yr", "skills": ["medical coding"], "status": "Newly Added" },
+          { "job_title": "Associate Collections Representative – Fresher", "company": "Optum", "location": "Hyderabad", "work_type": "work from office", "experience": "0-1 Yr", "skills": ["ms office software", "typing skill"], "status": "Newly Added" },
+          { "job_title": "Billing Representative", "company": "Optum", "location": "Bangalore", "work_type": "work from office", "experience": "1-2 Yr", "skills": ["ms application center", "microsoft word"], "status": "Newly Added" },
+          { "job_title": "Data Entry Executive (work from home)", "company": "Busibud Solutions", "location": "Any", "work_type": "work from home", "experience": "0-3 Yr", "skills": ["data entry", "manage data entry"], "status": "Newly Added" },
+          { "job_title": "Assistant Manager Collections", "company": "Optum", "location": "Hyderabad", "work_type": "work from office", "experience": "5-8 Yr", "skills": ["denial management", "team handling"], "status": "Newly Added" },
+          { "job_title": "Senior QA Consultant", "company": "HerKey", "location": "Bangalore", "work_type": "hybrid", "experience": "4-6 Yr", "skills": ["manual testing", "regression test"], "status": "Newly Added" },
+          { "job_title": "Event Coordinator (Freelance)", "company": "HerKey", "location": "Bangalore", "work_type": "hybrid", "experience": "3-8 Yr", "skills": ["event mgmt", "volunteer mgmt"], "status": "Newly Added" },
+          { "job_title": "HR Head", "company": "Magicians of Wellness", "location": "Mumbai", "work_type": "work from office", "experience": "3-5 Yr", "skills": ["hr ops", "culture mgmt"], "status": "Newly Added" },
+          { "job_title": "Data Engineer III - Data Engineering", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "4-6 Yr", "skills": ["advanced data visualization", "data pipelines"], "status": "Newly Added" },
+          { "job_title": "SAP PI/PO Developer", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "6-8 Yr", "skills": ["sap netweaver", "sap pi/po"], "status": "Newly Added" },
+          { "job_title": "Analyst II - IT Solutions", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "3-5 Yr", "skills": ["data visualization", "bi tools"], "status": "Newly Added" },
+          { "job_title": "Senior Salesforce Developer", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "5-8 Yr", "skills": ["salesforce", "apex"], "status": "Newly Added" },
+          { "job_title": "Senior ABAP Developer - SAP ECC", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "5-8 Yr", "skills": ["abap workbench", "abap objects"], "status": "Newly Added" },
+          { "job_title": "Manager - Software Engineer", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "10-13 Yr", "skills": ["blazor", "razorsql"], "status": "Newly Added" },
+          { "job_title": "Engineer II - Software Engineering", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "3-4 Yr", "skills": ["data analytics", "data management"], "status": "Newly Added" },
+          { "job_title": "Application Developer III", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "5-8 Yr", "skills": ["blazor", "razorsql"], "status": "Newly Added" },
+          { "job_title": "Azure Cloud Data Engineer", "company": "Cencora", "location": "Pune", "work_type": "work from office", "experience": "5-8 Yr", "skills": ["ms azure", "analytical skill"], "status": "Newly Added" },
+          { "job_title": "Telugu Social Interaction Coach", "company": "FRND App", "location": "Any", "work_type": "work from home", "experience": "0-10 Yr", "skills": ["communication skills", "listening"], "status": "Newly Added" },
+          { "job_title": "Social Interaction Coach", "company": "FRND App", "location": "Any", "work_type": "work from home", "experience": "0-10 Yr", "skills": ["communication skills", "listening"], "status": "Newly Added" },
+          { "job_title": "Senior Manager, Data Strategy & Governance", "company": "Amgen India", "location": "Hyderabad", "work_type": "work from office", "experience": "8-14 Yr", "skills": ["leadership", "data management"], "status": "Newly Added" },
+          { "job_title": "Data Analyst – Power BI, Python and Alteryx", "company": "Optum", "location": "Hyderabad", "work_type": "work from office", "experience": "4-6 Yr", "skills": ["power bi dashboard", "data warehousing system"], "status": "Newly Added" },
+          { "job_title": "Software Developer - Java", "company": "Ericsson", "location": "Bangalore", "work_type": "hybrid", "experience": "2-8 Yr", "skills": ["java", "spring boot"], "status": "Newly Added" },
+          { "job_title": "Data Engineer - SAP HANA and Snow Flake", "company": "Ericsson", "location": "Bangalore", "work_type": "hybrid", "experience": "3-8 Yr", "skills": ["sap hana", "sap bods"], "status": "Newly Added" }
+        ]
+      ]
     }
   ]
 }
